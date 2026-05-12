@@ -4,3 +4,9 @@ plugins {
     alias(libs.plugins.aliucord.plugin) apply true
     alias(libs.plugins.ktlint) apply false
 }
+
+subprojects {
+    apply(plugin = "com.android.library")
+    apply(plugin = "org.jetbrains.kotlin.android")
+    apply(plugin = "com.aliucord.gradle")
+}
