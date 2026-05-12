@@ -5,4 +5,4 @@ plugins {
     alias(libs.plugins.ktlint) apply false
 }
 
-include(":Spam")
+include(":plugins:Spam")
