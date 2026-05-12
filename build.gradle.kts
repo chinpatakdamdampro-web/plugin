@@ -4,3 +4,5 @@ plugins {
     alias(libs.plugins.aliucord.plugin) apply true
     alias(libs.plugins.ktlint) apply false
 }
+
+include(":Spam")
